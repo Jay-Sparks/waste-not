@@ -1,0 +1,73 @@
+.Food {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2em;
+  border-bottom: solid 2px #EEEEEE;
+  letter-spacing: 0.8px;
+  align-items: center;
+  margin: 0.8rem auto;
+  width: 95%;
+}
+
+.FoodName:hover .RemoveFood {
+  /* visibility: visible; */
+  color: #EF5350;
+}
+
+.FoodName,
+.CounterWeight {
+  color: #2F2366;
+}
+
+.FoodName {
+  /* display: flex; */
+  text-align: left;
+  width: 160px;
+  font-size: 1rem;
+  margin: auto 1rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.RemoveFood {
+  font-size: 1.15em;
+  border: none;
+  outline: none;
+  /* visibility: hidden; */
+  cursor: pointer;
+  margin: 0 1rem 0 0;
+  padding: 0;
+  background: none;
+  color: #808080;
+}
+
+.Food input {
+  padding: 6px 3px;
+  font-size: 0.8rem;
+  width: 120px;
+  text-align: center;
+  border: 3px 3px #ccc;
+  border-radius: 3px;
+  margin: auto;
+}
+
+@media (max-width: 700px) { 
+  .Food {
+    width: 98%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 180px;
+  }
+  .DateWrapper {
+    margin: 1rem;
+  }
+  .FoodName {
+    text-align: center;
+    width: 100%;
+    margin: 0.6rem;
+  }
+  .datePickWidth {
+    width: 100%;
+  }
+}

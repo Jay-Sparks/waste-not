@@ -1,0 +1,27 @@
+.FavouriteRecipe {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0.8rem auto;
+    padding: 1rem;
+    box-shadow: 0 3px 10px #252D4E;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .RecipeName {
+    width: 312px;
+    margin: 1rem auto 0;
+    overflow: hidden;
+    color: #252D4E;
+  }
+  
+  .FavouriteRecipe img {
+    width: 312px;
+    height: 231px;
+    margin: auto;
+    border-radius: 12px;
+  }
+  
+  

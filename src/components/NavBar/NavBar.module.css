@@ -1,0 +1,172 @@
+.NavBar {
+  width: 100%;
+  background-color: #252D4E;
+  color: white; 
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.LogoBox {
+  display: flex;
+  justify-content: flex-start;
+  margin: 1rem 0;
+  width: 60%;
+}
+
+.Logo {
+  margin: auto 30px;
+  justify-content: flex-start;
+  height: 50px;
+  box-shadow: 0 0 5px #aaaaaa;
+}
+
+.Logo p {
+  margin: auto;
+}
+
+.NavigationItems, .NavigationInactive {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 30px;
+  padding-inline-start: 0;
+}
+
+
+
+.activePage {
+  color: #C7BCF8;
+}
+
+
+li {
+  display: flex;
+  color: white;
+  margin: auto;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  justify-content: space-between;
+  display: flex;
+}
+
+.Login {
+  border-radius: 10px;
+  border: 2px solid #C7BCF8;
+  font-weight: 600;
+  font-size: 0.9rem;
+  min-width: 3.6rem;
+  cursor: pointer;
+}
+
+.Login a {
+  margin: auto;
+  padding: 0.6rem 1.8rem;
+}
+
+.Login:hover {
+  background-color: #ccc;
+}
+
+.AuthNavItems {
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0 30px;
+  width: 70%;
+}
+
+.AuthNavItems li {
+  margin: auto 1.5rem;
+  width: 90px;
+}
+
+.AuthNavItems a {
+  margin: auto;
+}
+
+.SignUp {
+  margin: auto 30px;
+}
+
+.toggleButton {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 31px;
+  height: 21px;
+}
+
+.toggleButton .bar {
+  height: 3px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+@media (max-width: 600px) { 
+  .NavigationInactive {
+    display: none;
+  }
+  .toggleButton {
+    display: flex;
+  }
+  .NavBar {
+    flex-direction: column;
+  }
+  .AuthNavItems {
+    flex-direction: column;
+    width: 100%;
+  }
+  .AuthNavItems li {
+    width: 100%;
+    margin: 0;
+  }
+  .AuthNavItems a {
+    padding: 1rem 0;
+  }
+  .Login {
+    padding: 1rem 0;
+    border: none;
+    font-size: 1rem;
+    width: 100%;
+    border-radius: 0;
+  }
+  .Login:hover {
+    background-color: #C7BCF8;
+  }
+  .SignUp {
+    width: 100%;
+    padding: 1rem;
+  }
+  .SignUp a {
+    margin: auto;
+  }
+  .SignUp:hover {
+    background-color: #C7BCF8;
+  }
+  .Login a{
+    padding: 0;
+    margin: auto;
+  }
+  .NavigationItems {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+  .AuthNavItems li:hover {
+    background-color: #C7BCF8;
+  }
+  .LogoBox p{
+    text-align: left;
+  }
+  .activeLogin {
+    color: #C7BCF8;
+  }
+}

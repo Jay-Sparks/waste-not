@@ -1,0 +1,45 @@
+.UserSignIn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.SignInWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+  align-items: center;
+}
+
+.UserSignIn h3 {
+  color: #252D4E;
+}
+
+.UserSignIn h5 {
+  margin-bottom: 10px;
+}
+
+.UserSignIn p {
+  margin: 10px 0;
+}
+
+.UserSignIn a {
+  color: #C7BCF8;
+}
+
+.GoogleButton {
+  width: 60%;
+  height: 2.8rem;
+  color: white;
+  background-color: #252D4E;
+}
+
+@media (max-width: 600px) { 
+  .SignInWrapper {
+    width: 100%;
+  }
+  .GoogleButton {
+    width: 83%;
+  }
+}

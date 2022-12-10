@@ -1,0 +1,177 @@
+.Modal {
+    background-color: #252D4E;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.modalHeader {
+    display: flex;
+    margin: 0 0 1.6rem 0;
+}
+
+.Modal h3 {
+    margin: 0 auto 1rem;
+}
+
+.topFlex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.midFlex {
+    display: flex;
+    margin: 1rem 1rem 0;
+    justify-content: space-around;
+}
+
+.midFlex h4{
+    margin: 0 1rem 0.8rem;
+    width: 120px;
+}
+
+.recipeImage {
+    width: 312px;
+    height: 231px;
+    border-radius: 8px;
+    margin: 0 0 1.5rem 0;
+}
+
+.titleInfo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.titleInfo p {
+    margin: 1rem;
+}
+
+.titleInfo h4 {
+    margin: 0 1rem 0.8rem;
+}
+
+.rightWrapper {
+    margin: 1rem;
+}
+
+.modalContainer {
+    width: 90%;
+    height: 85%;
+    background-color: #fff;
+    box-shadow:0 3px 10px rgb(0 0 0 / 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+    border-radius: 12px;
+    margin: 1rem;
+    overflow-y: scroll;
+}
+
+.modalHeader h3 {
+    margin: auto;
+}
+
+.saveButton button{
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    outline: none;
+    align-items: center;
+    margin: auto 1rem;
+    padding-top: 4px;
+}
+
+.saveButton svg {
+    color: #f54295;
+}
+
+.closeButton button {
+    font-size: 1.8rem;
+    border: none;
+    outline: none;
+    /* visibility: hidden; */
+    cursor: pointer;
+    padding: 0;
+    background: none;
+    color: #000;
+    margin: auto 1rem;
+    padding-bottom: 5px;
+}
+
+.closeButton button {
+    /* visibility: visible; */
+    color: #f54295;
+  }
+
+
+.infoWrapper {
+    width: 90%;
+    margin: auto;
+}
+
+.infoWrapper p{
+    margin: 1rem auto;
+}
+
+.infoWrapper h4 {
+    margin: 0 0 1rem
+}
+
+.linkButton {
+    width: 50%;
+    display: block;
+    font-size: .8em;
+    margin: 1rem auto;
+    padding: 10px;
+    background-color: #252D4E;
+    border-radius: 5px;
+    border: 3px solid #9296a6;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-shadow: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.2s ease,
+                color 0.2s ease;
+    margin: 2rem auto;
+  }
+
+
+@media (max-width: 700px) {
+    .Modal{
+        background-color: #fff;
+        border-radius: 8px;
+    }
+    .rightWrapper {
+        width: 100%;
+    }
+    .titleInfo {
+        flex-wrap: wrap;
+    }
+    .titleItem{
+        width: 100%;
+        margin: 0.5rem
+    }
+    .midFlex {
+        flex-wrap: wrap;
+    }
+    .modalContainer {
+        height: auto;
+        overflow-y: unset;
+        width: 100%;
+        margin: 0;
+        padding: 1rem;
+        border-radius: 0;
+    }
+}
+

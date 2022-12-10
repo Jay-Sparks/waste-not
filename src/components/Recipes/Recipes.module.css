@@ -1,0 +1,41 @@
+.Recipes {
+        background: #fff;
+        width: 75%;
+        height: 76vh;
+        margin: 1rem auto;
+        box-shadow: 0 2px 0 #505671;
+        border-radius: 6px;
+        padding: 1rem 2rem;
+        display: flex;
+        flex-wrap: wrap;
+        overflow: scroll;
+}
+
+.Recipes h3 {
+        margin: 0.6rem auto;
+}
+
+.RecipeList {
+        display: flex;
+        flex-wrap: wrap;
+}
+
+.RecipeWrapper {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem auto;
+}
+
+.noRecipes {
+       margin: 2rem; 
+}
+
+@media (max-width: 700px) {
+        .Recipes {
+          padding: 0;
+          margin: 0;
+          width: 100%;
+          height: auto;
+          border-radius: 0;
+        }
+      }

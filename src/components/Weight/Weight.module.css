@@ -1,0 +1,45 @@
+.Weight {
+  display: flex;
+  align-items: center;
+  min-width: 145px;
+  margin: 0 1rem;
+}
+
+.WeightAction {
+  border: none;
+  width: 40px;
+  height: 40px;
+  font-size: 1.15em;
+  font-Weight: bold;
+  color: #B0AEBA;
+  background-color: #DCDCDC;
+  cursor: pointer;
+  outline: none;
+  border-radius: 50px;
+}
+
+.WeightAction:hover {
+  color: #fff;
+}
+
+.Increment:hover {
+  background: #83D97C;
+}
+
+.Decrement:hover {
+  background: #EF5350;
+}
+
+.WeightAmount {
+  margin: 1.2rem 0.6rem;
+  flex-grow: 1;
+  text-align: center;
+  font-size: 1rem;
+}
+
+@media (max-width: 700px) {
+  .Weight {
+
+
+  }
+}

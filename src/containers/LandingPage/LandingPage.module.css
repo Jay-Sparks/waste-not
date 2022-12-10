@@ -1,0 +1,75 @@
+.LandingPage {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  position: fixed;
+}
+
+.BackgroundImage {
+  width: 100%;
+  min-height: 100%;
+  background-image: url('../../../public/zeroWaste.webp');
+  background-size: cover;
+  background-position: center;
+  background: auto;
+  background-repeat: no-repeat;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.Intro {
+  background-color: #fff;
+  width: 70%;
+  margin: auto;
+  margin-top: 6rem;
+  padding: 100px 30px;
+  color: #252D4E;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: inset 0 0 6px #000000;
+  border-style: outset;
+  border-color: #252D4E;
+}
+
+.ListBanner {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #252D4E;
+}
+
+.ListWrapper{
+  display: flex;
+  justify-content: center;
+}
+
+.ListWrapper li {
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 500;
+  width: 20%;
+  padding: 20px;
+  min-height: 80px;
+  border-style: outset;
+  border-color: #252D4E;
+  align-items: center;
+  box-shadow: inset 0 0 6px #000000;
+}
+
+.LandingPage h1 {
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.LandingPage p {
+  padding: 5px 0;
+}
+
+.LandingPage li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: inherit;
+}

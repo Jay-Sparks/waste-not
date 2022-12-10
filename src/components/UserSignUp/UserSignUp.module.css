@@ -1,0 +1,36 @@
+.UserSignUp {
+  display: flex;
+  flex-direction: column;
+}
+
+.SignUpWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: auto;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.UserSignUp h3 {
+  color: #252D4E;
+}
+
+.UserSignUp h5 {
+  margin-bottom: 10px;
+}
+
+.UserSignUp p {
+  margin: 10px 0;
+}
+
+.UserSignUp a {
+  color: #C7BCF8;
+}
+
+.GoogleButton {
+  width: 48%;
+  height: 40px;
+  color: white;
+  background-color: #252D4E;
+}
