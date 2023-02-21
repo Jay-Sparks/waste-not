@@ -18,8 +18,8 @@ const Recipes = () => {
   const [ savedStatus, setSavedStatus ] = useState(false);
 
   useEffect(() => {
-    setRecipeList();
-  }, []);
+    setRecipeList(recipeList);
+  }, [recipeList]);
 
   return (
     <div className={style.Recipes}>
