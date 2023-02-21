@@ -18,7 +18,7 @@ const Recipes = () => {
   const [ savedStatus, setSavedStatus ] = useState(false);
 
   useEffect(() => {
-    setRecipeList();
+    setRecipeList((JSON.parse(localStorage.getItem("recipes"))));
   }, []);
 
   return (
