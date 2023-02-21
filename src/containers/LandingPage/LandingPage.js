@@ -11,15 +11,18 @@ const LandingPage = () => (
         <p>with <i>whatever</i> food you have in your kitchen</p>
       </div>
 
-      {/* <div className={style.ListBanner}>
-        <h3>Waste Not will help you:</h3>
-        <ul className={style.ListWrapper}>
-          <li>Keep track of the food in your kitchen</li>
-          <li>find recipes with your ingredients</li>
-          <li>Plan your meals to waste less</li>
-        </ul>
-      </div> */}
-    </div>
+      <div className={style.NewBox}>
+        <p>
+          Waste Not is a portfolio project by  Jay Spencer. 
+          Built using React.js and Firebase
+        </p>
+        <p>
+          Please feel free to create a test account using a fake email address to experiment with the features.
+          All data is deleted every 30 days.
+        </p>
+
+      </div>
+    </div> 
   </div>
 
 );
